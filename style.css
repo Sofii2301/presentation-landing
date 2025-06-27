@@ -1,0 +1,283 @@
+#root {
+    width: 100%;
+    margin: 0;
+    color: #f9f9f9;
+}
+
+.row {
+    margin: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    --bs-gutter-x: 0;
+}
+
+.row>* {
+    width: auto;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Fonts*/
+.merriweather {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #2d2d2d;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 2.75rem;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.125rem;
+    font-size: 1rem;
+}
+
+.lato-regular{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.125rem;
+    font-size: 1rem;
+}
+
+.lato-semi-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.lato-extrabold {
+    font-family: "Lato", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.cormorant-light {
+    font-family: "Cormorant", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+/*Navbar*/
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    --bs-navbar-padding-y: 0
+}
+
+.brand_logo, .menu {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.logo svg {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    margin-right: 16px;
+}
+
+.navbar-nav .nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    white-space: nowrap;
+    color: #2d2d2d;
+}
+
+/*Hero*/
+.hero-section {
+    width: 100%;
+    height: calc(100vw * 0.5); 
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px 2rem 100px 2rem;
+}
+
+.wave {
+    width: 100%;
+    height: calc(100vw * 0.5); 
+    position: absolute; 
+    top: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.wave svg {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.hero-section .hero-container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-section .left-section {
+    padding: 20px 0px 20px 52px;
+    display: grid;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+}
+
+.text-container .lato-light {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero-container button {
+    display: flex;
+    background-color: #f9f9f9;
+    color: #2d2d2d;
+    border-radius: 12px;
+    border-color: 2px solid #2d2d2d;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px 10px 20px;
+}
+
+.image-container svg {
+    width: 100%;
+    height: 100%;
+}
+
+/*Sobre mi*/
+.about-section {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    width: 100%;
+    background-color: #f3c1c6;
+}
+
+.about-section .foto-perfil  {
+    max-height: 500px;
+    min-height: 432px;
+    max-width: 100%;
+    display: flex;
+}
+
+.about-section .foto-perfil img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    min-width: 356px;
+}
+
+.about-section .sobre-mi {
+    padding: 44px 32px 44px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f9f9f9;
+    color: #2d2d2d;
+    border-radius: 24px;
+    min-width: 400px;
+}
+
+.about-section .playfair-display {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/*Servicios*/
+.services-section {
+    padding: 60px 40px 60px 40px;
+    color: #a8c0d6;
+    gap: 2rem;
+}
+
+.services-section .services {
+    padding: 0 20px 0 20px;
+    gap: 10px;
+}
+
+.services-section .container {
+    width: 100%;
+    border: #a8c0d6 2px solid;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 12px 60px 12px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-section .content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+}
+
+.services-section i {
+    color: #a8c0d6;
+    font-size: 1.5rem;
+}
+
+.services-section .container.info {
+    background-color: #a8c0d6;
+    color: #f9f9f9;
+}
+
+.services-section .container.info i {
+    color: #f9f9f9;
+}
