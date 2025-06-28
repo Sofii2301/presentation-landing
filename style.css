@@ -314,9 +314,10 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 240px;
+    width: 260px;
+    height: 340px;
     padding: 28px 16px 16px 16px;
-    background-color: #2d2d2d;
+    background-color: #5a5a5a;
     border-radius: 12px;
     gap: 16px;
 }
@@ -348,6 +349,8 @@ a {
     gap: 10px;
     background-color: #f9f9f9;
     border-radius: 8px;
+    height: 140px;
+    justify-content: center;
 }
 
 /*Contacto*/
@@ -416,4 +419,48 @@ a {
 
 .social i {
     font-size: 2rem;
+    color: #2d2d2d;
+}
+
+/*Frase*/
+.phrase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 60px 0 60px 0;
+}
+
+/*Footer*/
+footer {
+    width: 100%;
+    display: flex;
+    padding: 40px 60px 40px 60px;
+    background-color: #5a5a5a;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    gap: 64px;
+    color: #f9f9f9;
+}
+
+footer .data, footer .copyright {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .lato-light {
+    font-size: 1.25rem;
+}
+
+footer .social i {
+    color: #f9f9f9;
+    font-size: 1.5rem;
 }
