@@ -93,6 +93,15 @@ a {
     line-height: 2rem;
 }
 
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+    line-height: 1.125rem;
+    white-space: 0.8rem;
+}
+
 .poppins-extrabold {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
@@ -339,4 +348,72 @@ a {
     gap: 10px;
     background-color: #f9f9f9;
     border-radius: 8px;
+}
+
+/*Contacto*/
+.contact-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 60px 0 60px;
+}
+
+.contact-section .container {
+    display: flex;
+    flex-direction: row;
+    background-color: #a8c0d6;
+    color: #2d2d2d;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.contact-section .col-6 {
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section .text .poppins-medium {
+    margin-bottom: 12px;
+}
+
+.contact-section .text .lato-regular {
+    margin-bottom: 8px;
+}
+
+.contact-section .data {
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.contact-section .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-section .contact-data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+}
+
+.contact-data i {
+    font-size: 1.5rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+    padding: 0;
+}
+
+.social i {
+    font-size: 2rem;
 }
